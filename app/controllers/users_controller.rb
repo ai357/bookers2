@@ -7,8 +7,16 @@ class UsersController < ApplicationController
   end
 
 
+  def index
+  end
+
+
   def edit
     @user = User.find(params[:id])
+  end
+
+
+  def update
   end
 
 
